@@ -1,9 +1,13 @@
 package Overriding;
 
 public class Circle extends Shape {
-
+	protected String name;
+	
 	public void draw() {
-		System.out.println("Circle");
+		name = "Circle";
+		super.name = "Shape";
+		super.draw();
+		System.out.println(name);
 	}
 }
 

@@ -9,12 +9,14 @@ public class OverridingEx {
 		// TODO Auto-generated method stub
 		Line line = new Line();
 		
+		Shape b = new Circle();
+		b.paint();
 		
 	paint(line);
 	paint(new Shape());
 	paint(new Line());
 	paint(new Rect());
-	paint(new Circle());
+//	paint(new Circle());
 	}
 
 }
